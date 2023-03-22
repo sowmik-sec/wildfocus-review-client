@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-2xl font-bold text-gray-900">
-              Wildlife Review
+              WildFocus Review
             </Link>
           </div>
           <div className="-mr-2 flex items-center md:hidden">
@@ -57,6 +57,12 @@ const Navbar = () => {
                 className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Contact
+              </Link>
+              <Link
+                to="/register"
+                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Register
               </Link>
             </div>
           </div>
