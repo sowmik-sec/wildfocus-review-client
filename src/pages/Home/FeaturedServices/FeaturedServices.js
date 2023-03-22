@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Service from "./Service";
 
 const FeaturedServices = () => {
@@ -9,10 +10,18 @@ const FeaturedServices = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-      {services.map((service) => (
-        <Service key={service.id} service={service} />
-      ))}
+    <div>
+      <h3 className="text-3xl my-5 ml-8">Featured Professionals</h3>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+        {services.map((service) => (
+          <Service key={service.id} service={service} />
+        ))}
+      </div>
+      <div className="text-center my-5">
+        <Link>
+          <button className="btn">See All</button>
+        </Link>
+      </div>
     </div>
   );
 };

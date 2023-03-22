@@ -9,7 +9,7 @@ const BannerItems = ({ slide }) => {
         <img src={image} alt="" className="w-screen h-screen rounded-xl" />
       </div>
       <div className="absolute  transform -translate-y-1/2 left-24 top-1/4">
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold text-white">
           Explore the untamed
           <br />
           beauty of nature
