@@ -18,7 +18,7 @@ const FeaturedServices = () => {
         ))}
       </div>
       <div className="text-center my-5">
-        <Link>
+        <Link to="/services">
           <button className="btn">See All</button>
         </Link>
       </div>

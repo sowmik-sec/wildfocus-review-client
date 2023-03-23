@@ -41,16 +41,16 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
+                to="/services"
+                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Photographers
+              </Link>
+              <Link
                 to="/about"
                 className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
-              </Link>
-              <Link
-                to="/reviews"
-                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Reviews
               </Link>
               <Link
                 to="/contact"
